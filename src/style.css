@@ -18,6 +18,7 @@ ul {
 }
 li {
   list-style: none;
+  text-transform: capitalize;
   margin: 0;
   padding: 0;
   color: rgb(135, 135, 135);
@@ -25,7 +26,9 @@ li {
   font-weight: 100;
   line-height: 19px;
 }
-
+.units{
+  margin-top: 40px;
+}
 .weather-app-wrapper{
 max-width: 600px;
   margin: 30px auto;
