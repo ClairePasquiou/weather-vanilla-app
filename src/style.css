@@ -69,3 +69,13 @@ max-width: 600px;
 a:link{
   text-decoration: none;
 }
+
+.weather-temperature .active{
+  color: rgb(33,33,33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover{
+  text-decoration: none;
+  
+}
