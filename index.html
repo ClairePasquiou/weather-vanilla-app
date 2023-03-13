@@ -10,8 +10,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous" />
 
-      <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
-
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
 
     <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
@@ -23,14 +22,22 @@
           <form id="search-form" class="mb-3">
             <div class="row">
               <div class="col-9">
-            <input type="search" placeholder="Type a city..." class="form-control" id="city-input" autocomplete="off">
-          </div>
-          <div class="col-3">
-            <input type="submit" value="search" class="btn btn-primary w-100"/>
-          </div>
+                <input
+                  type="search"
+                  placeholder="Type a city..."
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off" />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="search"
+                  class="btn btn-primary w-100" />
+              </div>
             </div>
           </form>
-          
+
           <div class="overview">
             <h1 id="city"></h1>
             <ul>
@@ -41,13 +48,13 @@
           <div class="row">
             <div class="col-6">
               <div class="d-flex weather-temperature">
-                  <img 
-                  src="" 
-                  alt=""
-                  id="icon"  />
-                  <strong id="temperature"></strong>
-                <span class="units"> <a href="#" id="celsius-link" class="active">°C</a> | <a href="#" id="fahrenheit-link">°F</a></span>
-               </div>
+                <img src="" alt="" id="icon" />
+                <strong id="temperature"></strong>
+                <span class="units">
+                  <a href="#" id="celsius-link" class="active">°C</a> |
+                  <a href="#" id="fahrenheit-link">°F</a></span
+                >
+              </div>
             </div>
 
             <div class="col-6">
@@ -55,6 +62,22 @@
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
+            </div>
+          </div>
+          <div class="weather-forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-date">Thu</div>
+                <img
+                  src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-night.png"
+                  alt=""
+                  width="42px" />
+                <div class="weather-forecast-temperature">
+                 <span class="weather-forecast-temperature-max">18°</span>
+                 /
+                 <span class="weather-forecast-temperature-min">12°</span>    
+                </div>
+              </div>
             </div>
           </div>
         </div>
