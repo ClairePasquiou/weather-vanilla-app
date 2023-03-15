@@ -66,19 +66,7 @@ max-width: 600px;
   top: -34px;
 }
 
-a:link{
-  text-decoration: none;
-}
 
-.weather-temperature .active{
-  color: rgb(33,33,33);
-  cursor: default;
-}
-
-.weather-temperature .active:hover{
-  text-decoration: none;
-  
-}
 
 .weather-forecast{
   margin-top: 20px;
