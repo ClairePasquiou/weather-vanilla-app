@@ -50,7 +50,7 @@ forecast.forEach(function(forecastDay, index){
                     forecastDay.condition.icon
                   }.png"
                   alt=""
-                  width="42px" />
+                  width="50px" />
                 <div class="weather-forecast-temperature">
                  <span class="weather-forecast-temperature-max">${Math.round(
                    forecastDay.temperature.maximum
