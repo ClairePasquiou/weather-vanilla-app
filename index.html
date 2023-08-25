@@ -11,9 +11,11 @@
       crossorigin="anonymous" />
 
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
 
     <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
@@ -33,10 +35,7 @@
                   autocomplete="off" />
               </div>
               <div class="col-3">
-                <input
-                  type="submit"
-                  value="search"
-                  class="button" />
+                <input type="submit" value="Search" class="button" />
               </div>
             </div>
           </form>
@@ -59,14 +58,18 @@
 
             <div class="col-6">
               <ul>
-                <li><span class="conditions">Humidity</span>: <span id="humidity"></span>%</li>
-                <li><span class="conditions">Wind</span>: <span id="wind"></span> m/h</li>
+                <li>
+                  <span class="conditions">Humidity</span>:
+                  <span id="humidity"></span>%
+                </li>
+                <li>
+                  <span class="conditions">Wind</span>:
+                  <span id="wind"></span> m/h
+                </li>
               </ul>
             </div>
           </div>
-          <div class="weather-forecast" id="forecast">
-
-          </div>
+          <div class="weather-forecast" id="forecast"></div>
         </div>
 
         <small class="links">
@@ -80,8 +83,8 @@
       </div>
     </div>
     <video id="background-video" autoplay loop muted poster="visuals/video.mp4">
-      <source src="visuals/video.mp4" type="video/mp4">
-      </video>
+      <source src="visuals/video.mp4" type="video/mp4" />
+    </video>
     <script src="src/app.js"></script>
   </body>
 </html>
